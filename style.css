@@ -1,0 +1,28 @@
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+thead {
+    background-color: lightgreen;
+}
+tfoot {
+    background-color: lightblue;
+}
+tbody {
+    background-color: lightgray;
+}
+#1 :hover {
+ background-color: red;
+}
+.form-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+body {
+    margin: 0px;
+}
