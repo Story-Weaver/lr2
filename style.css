@@ -13,11 +13,11 @@ tfoot {
     background-color: lightblue;
 }
 
-th{
+tr.hov{
     padding: 10px;
     text-align: left;
 }
-th:hover {
+tr.hov:hover {
     padding: 10px;
     background-color: red;
     text-align: left;
