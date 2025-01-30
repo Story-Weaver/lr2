@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Форма резюме</h2>
+        <form>
+            <fieldset>
+                <legend>Общая информация</legend>
+                <label>Фамилия: <input type="text" required placeholder="Введите фамилию"></label>
+                <label>Имя: <input type="text" required placeholder="Введите имя"></label>
+                <label>Отчество: <input type="text" placeholder="Введите отчество"></label>
+                <label>Дата рождения: <input type="date" required></label>
+                <label>Пол:
+                    <select>
+                        <option>Мужской</option>
+                        <option>Женский</option>
+                    </select>
+                </label>
+                <label>Фото: <input type="file"></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Контактная информация</legend>
+                <label>Телефон: <input type="tel" required placeholder="Введите телефон"></label>
+                <label>Эл. почта: <input type="email" placeholder="Введите e-mail"></label>
+                <label>Адрес: <input type="text" placeholder="Введите адрес"></label>
+                <label>Город:
+                    <select>
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Другой</option>
+                    </select>
+                </label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Образование</legend>
+                <label>Высшее: <input type="text" placeholder="Название учреждения"></label>
+                <label>Среднее: <input type="text" placeholder="Название учреждения"></label>
+                <label>Дополнительное: <input type="text" placeholder="Название учреждения"></label>
+                <label>Курсы: <input type="text" placeholder="Название курсов"></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Карьера</legend>
+                <label>Место работы 1: <input type="text"></label>
+                <label>Дата начала: <input type="date"> Дата окончания: <input type="date"></label>
+                <label>Место работы 2: <input type="text"></label>
+                <label>Дата начала: <input type="date"> Дата окончания: <input type="date"></label>
+                <label>Место работы 3: <input type="text"></label>
+                <label>Дата начала: <input type="date"> Дата окончания: <input type="date"></label>
+            </fieldset>
+            
+            <fieldset>
+                <legend>О себе</legend>
+                <label>
+                    <textarea rows="4" placeholder="Кратко расскажите о себе"></textarea>
+                </label>
+            </fieldset>
+            
+            <button type="submit">Отправить</button>
+            <button type="reset">Очистить</button>
+        </form>
+    </div>
+</body>
+</html>
