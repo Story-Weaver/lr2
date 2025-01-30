@@ -1,8 +1,8 @@
 table {
     width: 100%;
-    border: 1px solid black;
+    border: 0px solid black;
 }
-th, td {
+td {
     padding: 10px;
     text-align: center;
 }
@@ -12,12 +12,16 @@ thead {
 tfoot {
     background-color: lightblue;
 }
-tbody {
-    background-color: lightgray;
+
+th{
+    padding: 10px;
+    text-align: left;
 }
-#1 :hover {
- background-color: red;
-}
+th:hover {
+    padding: 10px;
+    background-color: red;
+    text-align: left;
+   }
 .form-container {
     max-width: 600px;
     margin: auto;
